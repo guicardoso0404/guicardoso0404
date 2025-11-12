@@ -1,9 +1,10 @@
 # Olá, eu sou o Guilherme Cardoso! 👋
 
-### [Desenvolvedor Web | Entusiasta de Tecnologia]
+### Desenvolvedor Web | Entusiasta de Tecnologia
 
 <p align="center">
-  <img src="https://i.gifer.com/origin/ba/ba2ce555fce3351a6d1195f425033333_w200.gif" alt="Coding Pixel Art GIF">
+  <img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="500">
+<br><br>
 </p>
 
 <p align="left">
