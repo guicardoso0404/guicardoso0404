@@ -1,12 +1,16 @@
 # Olá, eu sou o Guilherme Cardoso! 👋
 
-### [Seu subtítulo aqui, ex: Desenvolvedor Web | Entusiasta de Tecnologia]
+### [Desenvolvedor Web | Entusiasta de Tecnologia]
+
+<p align="center">
+  <img src="https://i.gifer.com/origin/ba/ba2ce555fce3351a6d1195f425033333_w200.gif" alt="Coding Pixel Art GIF">
+</p>
 
 <p align="left">
-  <a href="[SEU LINK DO LINKEDIN AQUI]" target="_blank">
+  <a href="[https://www.linkedin.com/in/guilherme-cardoso-39429328a/]" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="mailto:[SEU EMAIL AQUI]">
+  <a href="mailto:[guilhermecardoso0404@gmail.com]">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
@@ -15,7 +19,11 @@
 
 ##  Sobre Mim
 
-[Fale um pouco sobre você aqui. Por exemplo: "Sou um desenvolvedor apaixonado por criar soluções inovadoras e eficientes. Atualmente, estou focado em [...] e buscando oportunidades para colaborar em projetos [...]".]
+[Estudante técnico em Informática para Internet pelo Senac São Leopoldo, com formação voltada ao
+ desenvolvimento web e à tecnologia da informação. Sou uma pessoa dedicada, criativa e
+ comprometida com o aprendizado contínuo. Busco aprimorar minhas habilidades técnicas e
+ contribuir com soluções eficientes, unindo tecnologia, comunicação e inovação para alcançar
+ resultados de qualidade.]
 
 ##  Tecnologias e Ferramentas
 
@@ -33,7 +41,7 @@
 [HTML, CSS, JAVASCIRPT, JAVA, REACT, REACT-NATIVE.]
 ---
 
-## 📊 Minhas Estatísticas no GitHub
+## Minhas Estatísticas no GitHub
 
 <p align="center">
   <a href="https://github.com/guicardoso0404">
