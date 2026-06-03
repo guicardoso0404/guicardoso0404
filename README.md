@@ -78,25 +78,6 @@ Projeto acadêmico voltado para auxiliar microempresas de tecnologia na organiza
 
 ---
 
-## Estatísticas do GitHub
-
-<p align="center">
-  <img 
-    height="180em" 
-    src="https://github-readme-stats.vercel.app/api?username=guicardoso0404&show_icons=true&theme=dracula&hide_border=true&include_all_commits=true"
-    alt="Estatísticas do GitHub"
-  />
-</p>
-
-<p align="center">
-  <img 
-    height="180em" 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=guicardoso0404&layout=compact&langs_count=8&theme=dracula&hide_border=true"
-    alt="Linguagens mais usadas"
-  />
-</p>
-
----
 
 ## Objetivo
 
