@@ -65,12 +65,15 @@ Gosto de transformar ideias em aplicações funcionais, com foco em organizaçã
 ## Projetos em desenvolvimento
 
 ### FinControl
+
 Sistema de gestão financeira pessoal desenvolvido com foco em organização de despesas, receitas e controle financeiro.
 
 ### TaskFlow
+
 Aplicação para gerenciamento de tarefas, utilizando backend em Java com Spring Boot e integração com banco de dados.
 
 ### NetworkUp
+
 Projeto acadêmico voltado para auxiliar microempresas de tecnologia na organização de processos, clientes e informações.
 
 ---
@@ -78,15 +81,19 @@ Projeto acadêmico voltado para auxiliar microempresas de tecnologia na organiza
 ## Estatísticas do GitHub
 
 <p align="center">
-  <a href="https://github.com/guicardoso0404">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=guicardoso0404&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  </a>
+  <img 
+    height="180em" 
+    src="https://github-readme-stats.vercel.app/api?username=guicardoso0404&show_icons=true&theme=dracula&hide_border=true&include_all_commits=true"
+    alt="Estatísticas do GitHub"
+  />
 </p>
 
 <p align="center">
-  <a href="https://github.com/guicardoso0404">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=guicardoso0404&layout=compact&langs_count=8&theme=dracula"/>
-  </a>
+  <img 
+    height="180em" 
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=guicardoso0404&layout=compact&langs_count=8&theme=dracula&hide_border=true"
+    alt="Linguagens mais usadas"
+  />
 </p>
 
 ---
