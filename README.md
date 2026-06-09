@@ -84,3 +84,7 @@ Projeto acadêmico voltado para auxiliar microempresas de tecnologia na organiza
 Continuar evoluindo como desenvolvedor, criando projetos práticos, aprendendo novas tecnologias e buscando oportunidades para aplicar meus conhecimentos em soluções reais.
 
 ---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=guicardoso0404&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
+</p>
