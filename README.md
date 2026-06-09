@@ -1,6 +1,8 @@
 # Olá, eu sou o Guilherme Cardoso! 👋
 
-### Desenvolvedor Web | Estudante de Sistemas de Informação | Entusiasta de Tecnologia
+### Desenvolvedor Web | Estudante de Sistemas de Informação | Entusiasta de Tecnologia <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=guicardoso0404&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
+</p>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284136-03988914-d899-44b4-b1d9-4eeccf656e44.gif" width="500">
@@ -89,7 +91,3 @@ Continuar evoluindo como desenvolvedor, criando projetos práticos, aprendendo n
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/guicardoso0404/guicardoso0404/output/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/guicardoso0404/guicardoso0404/output/github-contribution-grid-snake.svg">
 </picture>
----
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=guicardoso0404&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
-</p>
