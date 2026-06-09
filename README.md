@@ -84,7 +84,12 @@ Projeto acadêmico voltado para auxiliar microempresas de tecnologia na organiza
 Continuar evoluindo como desenvolvedor, criando projetos práticos, aprendendo novas tecnologias e buscando oportunidades para aplicar meus conhecimentos em soluções reais.
 
 ---
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/guicardoso0404/guicardoso0404/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/guicardoso0404/guicardoso0404/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/guicardoso0404/guicardoso0404/output/github-contribution-grid-snake.svg">
+</picture>
+---
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=guicardoso0404&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
 </p>
