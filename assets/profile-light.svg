@@ -85,8 +85,8 @@
 
     <text class="section" x="0" y="482">- GitHub Stats</text>
     <text x="0" y="508"><tspan class="key">Repos</tspan><tspan class="muted"> ......... </tspan><tspan class="value">24</tspan><tspan class="muted"> {Contributed: </tspan><tspan class="value">1</tspan><tspan class="muted">} | Stars .... </tspan><tspan class="value">0</tspan></text>
-    <text x="0" y="533"><tspan class="key">Commits · 12m</tspan><tspan class="muted"> . </tspan><tspan class="value">220</tspan><tspan class="muted"> | Followers .... </tspan><tspan class="value">5</tspan></text>
-    <text x="0" y="558"><tspan class="key">Lines of Code on GitHub</tspan><tspan class="muted"> . </tspan><tspan class="value">502,513</tspan><tspan class="muted"> (</tspan><tspan class="add">513,934++</tspan><tspan class="muted">, </tspan><tspan class="del">11,421--</tspan><tspan class="muted">)</tspan></text>
+    <text x="0" y="533"><tspan class="key">Commits · 12m</tspan><tspan class="muted"> . </tspan><tspan class="value">221</tspan><tspan class="muted"> | Followers .... </tspan><tspan class="value">5</tspan></text>
+    <text x="0" y="558"><tspan class="key">Lines of Code on GitHub</tspan><tspan class="muted"> . </tspan><tspan class="value">502,543</tspan><tspan class="muted"> (</tspan><tspan class="add">513,969++</tspan><tspan class="muted">, </tspan><tspan class="del">11,426--</tspan><tspan class="muted">)</tspan></text>
 
     <text class="section" x="0" y="600">- Contact</text>
     <text x="0" y="626"><tspan class="key">GitHub</tspan><tspan class="muted"> ......... </tspan><tspan class="value">github.com/guicardoso0404</tspan></text>

@@ -18,19 +18,19 @@ text{font-family:Consolas,'Courier New',monospace;fill:#e6edf3;font-size:15px}
 <line x1="28" y1="54" x2="972" y2="54" stroke="#30363d"/>
 
 <text x="28" y="91"><tspan class="key">Repos</tspan><tspan class="muted"> ........ </tspan><tspan class="value">24</tspan><tspan class="muted"> {Contributed: </tspan><tspan class="value">1</tspan><tspan class="muted">} | Stars ........ </tspan><tspan class="value">0</tspan></text>
-<text x="28" y="123"><tspan class="key">Commits · 12 meses</tspan><tspan class="muted"> ........ </tspan><tspan class="value">220</tspan><tspan class="muted"> | Followers .... </tspan><tspan class="value">5</tspan></text>
-<text x="28" y="155"><tspan class="key">Lines of Code on GitHub</tspan><tspan class="muted"> ... </tspan><tspan class="value">502,513</tspan><tspan class="muted"> (</tspan><tspan class="add">513,934++</tspan><tspan class="muted">, </tspan><tspan class="del">11,421--</tspan><tspan class="muted">)</tspan></text>
+<text x="28" y="123"><tspan class="key">Commits · 12 meses</tspan><tspan class="muted"> ........ </tspan><tspan class="value">221</tspan><tspan class="muted"> | Followers .... </tspan><tspan class="value">5</tspan></text>
+<text x="28" y="155"><tspan class="key">Lines of Code on GitHub</tspan><tspan class="muted"> ... </tspan><tspan class="value">502,543</tspan><tspan class="muted"> (</tspan><tspan class="add">513,969++</tspan><tspan class="muted">, </tspan><tspan class="del">11,426--</tspan><tspan class="muted">)</tspan></text>
 
 <line x1="28" y1="181" x2="972" y2="181" stroke="#30363d"/>
 <text x="28" y="220" class="title">Atividade · últimos 12 meses</text>
-<text x="28" y="264" class="label">CONTRIBUIÇÕES</text><text x="28" y="296" class="metric">236</text>
+<text x="28" y="264" class="label">CONTRIBUIÇÕES</text><text x="28" y="296" class="metric">237</text>
 <text x="205" y="264" class="label">PULL REQUESTS</text><text x="205" y="296" class="metric">1</text>
 <text x="365" y="264" class="label">ISSUES</text><text x="365" y="296" class="metric">0</text>
 <text x="575" y="220" class="title">Linguagens mais usadas</text>
 <text x="575" y="265" class="language">JavaScript</text>
 <text x="950" y="265" text-anchor="end" class="muted">34.9%</text>
 <rect x="575" y="274" width="325" height="7" rx="3.5" fill="#21262d"/>
-<rect x="575" y="274" width="114" height="7" rx="3.5" fill="#f1e05a"/>
+<rect x="575" y="274" width="113" height="7" rx="3.5" fill="#f1e05a"/>
 <text x="575" y="299" class="language">CSS</text>
 <text x="950" y="299" text-anchor="end" class="muted">16.4%</text>
 <rect x="575" y="308" width="325" height="7" rx="3.5" fill="#21262d"/>
