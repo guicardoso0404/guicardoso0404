@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1050" height="725" viewBox="0 0 1050 725">
+  <style>
+    text {
+      font-family:Consolas,'Courier New',monospace;
+      font-size:14px;
+      white-space:pre;
+      fill:#24292f;
+    }
+    .title {font-size:19px;font-weight:700}
+    .ascii {font-size:13.2px;fill:#57606a}
+    .key {fill:#0969da;font-weight:700}
+    .value {fill:#1a7f37}
+    .muted {fill:#57606a}
+    .section {fill:#9a6700;font-weight:700}
+  </style>
+
+  <rect x="1" y="1" width="1048" height="723" rx="18"
+        fill="#f6f8fa" stroke="#d0d7de" stroke-width="2"/>
+
+  <text class="ascii" xml:space="preserve">
+    <tspan x="20" y="31">##%@@+:+#%@@@%@@@@@@@@@@@@@%*     .*%@@@</tspan>
+<tspan x="20" y="48">+#%%%#*#%%%@@@@@@%@@@@@@@@@%#:     #%@@@</tspan>
+<tspan x="20" y="65"> *#*%-:*#@@@@@@@@@*+#@@@@@@%%+-::..%@@@@</tspan>
+<tspan x="20" y="82"> **=#  =@@@@@@@@@@@+-#@@@@@@%#***+*@@@@@</tspan>
+<tspan x="20" y="99"> #*=%  *@@@@@@@@@@@@+=@@@@@@@%#%%#%@@@@@</tspan>
+<tspan x="20" y="116">*%*=%*=@@@@@@@@@@@%@%*@@@@@@@%%@@%%@@@@@</tspan>
+<tspan x="20" y="133">%%#=%%*@@@@%*=-==-:*#*@@@@@@@%%@@@@@@@@@</tspan>
+<tspan x="20" y="150">@%#+@%#@@%**+=: .=+=*%@@@@@@@%@@@@@@@@@@</tspan>
+<tspan x="20" y="167">@%%#@@%@@%***++--++-#@@@@@@@@%@@@@@@@@@@</tspan>
+<tspan x="20" y="184">@%%#@@#+%%+++=*+=+*-=@@@@@@@@%@@@@@@@@@@</tspan>
+<tspan x="20" y="201">@%%#@@%-+%*-.:*---:.-@@@@@@@@%@@@@@@@@@@</tspan>
+<tspan x="20" y="218">@%%%@@%++%+: -+:-.  +@@@@@@@@%@@@@@@@@@@</tspan>
+<tspan x="20" y="235">%%%@@%*#*#+::==:::..%@@@@@@@@%@@@@@@@@@@</tspan>
+<tspan x="20" y="252">=%%@@-.*%%*-:=-.--.-@@@@@@@@@%@@@@@@@@@@</tspan>
+<tspan x="20" y="269"> #@@%  -%%#+-::::::%@@@@@@@@@%%%#*%@@@@@</tspan>
+<tspan x="20" y="286"> %@@@  +%%**+=:.:.+@@@@@@@@@%#+-. #@@@@@</tspan>
+<tspan x="20" y="303">*@@@@#*%@%+=++--- +@@@@@@@@@%:    *@@@@@</tspan>
+<tspan x="20" y="320">@@@@@@%%@*.:::..  =@@@@@@@@@*     *@@@@@</tspan>
+<tspan x="20" y="337">@@@@@@@@@-        -@@@@@@@@@#     #@@@@@</tspan>
+<tspan x="20" y="354">@@@@@@@@@=         +@@@@@@@@%*-. .%@@@@@</tspan>
+<tspan x="20" y="371">@@@@@@@@@#         .#@%%@@@@@%%%##@@@@@@</tspan>
+<tspan x="20" y="388">@@@@@@@@@*          .=%@@%%@@@@@@@@@@@@@</tspan>
+<tspan x="20" y="405">@@@@@@@@@+           .:%@@%+%@@@@@@@@@@@</tspan>
+<tspan x="20" y="422">@@@@@@@@%-              :=:-#@@@@@@@@@@@</tspan>
+<tspan x="20" y="439">@@@@@@@@*.                   =@@@@@@@@@@</tspan>
+<tspan x="20" y="456">@@@@@@@@*.               -:   -+@@@@@@@@</tspan>
+<tspan x="20" y="473">@@@@@@@@-.         ...  :#-     *@@@@@@@</tspan>
+<tspan x="20" y="490">@@@@@@@%..         .:. .-*#-     -%@@@@@</tspan>
+<tspan x="20" y="507">@@@@@@@@+.         .:::-#%@:      .-%@@@</tspan>
+<tspan x="20" y="524">@@@@@@@@%:         .:=+#@@%=:      =#@@@</tspan>
+<tspan x="20" y="541">@@@@@@@@@*=-.     .:-=#@@@%@=:.     .*@%</tspan>
+<tspan x="20" y="558">@@@@@@@@@@@@=::  ..:=*@@@@@@##+==      -</tspan>
+<tspan x="20" y="575">@@@@@@@@@@@@@%+=-:-=*@@@@@@@@@@@#:.</tspan>
+<tspan x="20" y="592">@@@@@@@@@@@@@@@@%+=++%@@@@@@%@@%#%+:</tspan>
+<tspan x="20" y="609">@@@@@@@@@@@@@@@@#+-:.-*@@@@@=+*=#@#-.</tspan>
+<tspan x="20" y="626">@@@@@@@@@@@@@@@*==:..-+#@@@@@*=%@@*#**:</tspan>
+<tspan x="20" y="643">@@@@@@@@@@@@@@+---::.:+@@@@@@@*+@@@@@@*.</tspan>
+<tspan x="20" y="660">@@@@@@@@@@@@@@=:::::::%@@@@@@@@@@@@@@@#.</tspan>
+  </text>
+
+  <g transform="translate(455,35)">
+    <text class="title" x="0" y="0">guilherme@cardoso</text>
+    <text x="0" y="24" class="muted">────────────────────────────────────────────────────────</text>
+
+    <text x="0" y="54"><tspan class="key">Role</tspan><tspan class="muted"> ............ </tspan><tspan class="value">Desenvolvedor Web</tspan></text>
+    <text x="0" y="79"><tspan class="key">Education</tspan><tspan class="muted"> ....... </tspan><tspan class="value">Sistemas de Informação</tspan></text>
+    <text x="0" y="104"><tspan class="key">Degree</tspan><tspan class="muted"> .......... </tspan><tspan class="value">Técnico em Informática para Internet</tspan></text>
+    <text x="0" y="129"><tspan class="key">Focus</tspan><tspan class="muted"> ........... </tspan><tspan class="value">Backend Java · Spring Boot</tspan></text>
+
+    <text class="section" x="0" y="171">- Stack</text>
+    <text x="0" y="197"><tspan class="key">Languages</tspan><tspan class="muted"> ...... </tspan><tspan class="value">Java, JavaScript, Python, PHP</tspan></text>
+    <text x="0" y="222"><tspan class="key">Frontend</tspan><tspan class="muted"> ....... </tspan><tspan class="value">HTML, CSS, React, React Native</tspan></text>
+    <text x="0" y="247"><tspan class="key">Backend</tspan><tspan class="muted"> ........ </tspan><tspan class="value">Spring Boot, Node.js, REST APIs</tspan></text>
+    <text x="0" y="272"><tspan class="key">Databases</tspan><tspan class="muted"> ...... </tspan><tspan class="value">MySQL, PostgreSQL</tspan></text>
+    <text x="0" y="297"><tspan class="key">Tools</tspan><tspan class="muted"> .......... </tspan><tspan class="value">Git, GitHub, Docker, VS Code</tspan></text>
+
+    <text class="section" x="0" y="339">- Projects</text>
+    <text x="0" y="365"><tspan class="key">FinControl</tspan><tspan class="muted"> ..... </tspan><tspan class="value">Gestão financeira pessoal</tspan></text>
+    <text x="0" y="390"><tspan class="key">TaskFlow</tspan><tspan class="muted"> ....... </tspan><tspan class="value">Gerenciamento de tarefas</tspan></text>
+    <text x="0" y="415"><tspan class="key">NetworkUp</tspan><tspan class="muted"> ...... </tspan><tspan class="value">Solução para microempresas de TI</tspan></text>
+    <text x="0" y="440"><tspan class="key">DoraNina</tspan><tspan class="muted"> ....... </tspan><tspan class="value">Loja virtual de bolos e encomendas</tspan></text>
+
+    <text class="section" x="0" y="482">- GitHub Stats · últimos 12 meses</text>
+    <text x="0" y="508"><tspan class="key">Repos</tspan><tspan class="muted"> ........... </tspan><tspan class="value">25</tspan><tspan class="muted">    Stars .... </tspan><tspan class="value">0</tspan><tspan class="muted">    Followers .... </tspan><tspan class="value">0</tspan></text>
+    <text x="0" y="533"><tspan class="key">Commits</tspan><tspan class="muted"> ......... </tspan><tspan class="value">0</tspan><tspan class="muted">    Contributions .... </tspan><tspan class="value">0</tspan></text>
+
+    <text class="section" x="0" y="575">- Contact</text>
+    <text x="0" y="601"><tspan class="key">GitHub</tspan><tspan class="muted"> ......... </tspan><tspan class="value">github.com/guicardoso0404</tspan></text>
+    <text x="0" y="626"><tspan class="key">LinkedIn</tspan><tspan class="muted"> ....... </tspan><tspan class="value">guilherme-cardoso-39429328a</tspan></text>
+    <text x="0" y="651"><tspan class="key">Email</tspan><tspan class="muted"> .......... </tspan><tspan class="value">guilhermecardoso0404@gmail.com</tspan></text>
+  </g>
+</svg>
