@@ -31,7 +31,7 @@ Atuo no desenvolvimento de soluções web, com foco crescente em **backend com J
 | **FinControl** | Sistema de gestão financeira pessoal para controle de receitas, despesas e categorias. | Java, MySQL |
 | **TaskFlow** | Aplicação para gerenciamento de tarefas com API REST e persistência de dados. | Java, Spring Boot, PostgreSQL |
 | **NetworkUp** | Projeto acadêmico voltado à organização de processos e clientes de microempresas de tecnologia. | Web, APIs, banco de dados |
-| **[DoraNina](https://github.com/guicardoso0404/doranina)** | Loja virtual de bolos com catálogo, carrinho, pedidos, checkout e painel administrativo. | PHP, JavaScript, MySQL |
+| **DoraNina** | Loja virtual de bolos com catálogo, carrinho, pedidos, checkout e painel administrativo. | PHP, JavaScript, MySQL |
 
 ## Estatísticas
 
