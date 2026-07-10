@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="./assets/profile.svg" alt="Perfil de Guilherme Cardoso em estilo terminal" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/guicardoso0404/guicardoso0404/main/assets/profile-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/guicardoso0404/guicardoso0404/main/assets/profile-light.svg">
+  <img src="https://raw.githubusercontent.com/guicardoso0404/guicardoso0404/main/assets/profile-light.svg" alt="Perfil de Guilherme Cardoso em estilo terminal" width="100%">
+</picture>
 
 <br>
 
@@ -27,13 +31,18 @@ Atuo no desenvolvimento de soluções web, com foco crescente em **backend com J
 | **FinControl** | Sistema de gestão financeira pessoal para controle de receitas, despesas e categorias. | Java, MySQL |
 | **TaskFlow** | Aplicação para gerenciamento de tarefas com API REST e persistência de dados. | Java, Spring Boot, PostgreSQL |
 | **NetworkUp** | Projeto acadêmico voltado à organização de processos e clientes de microempresas de tecnologia. | Web, APIs, banco de dados |
-| **SINDIMETAL BI** | Painel de mensuração econômica e análise de empresas associadas. | JavaScript, Python, MySQL |
+| **[DoraNina](https://github.com/guicardoso0404/doranina)** | Loja virtual de bolos com catálogo, carrinho, pedidos, checkout e painel administrativo. | PHP, JavaScript, MySQL |
 
 ## Estatísticas
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=guicardoso0404&show_icons=true&locale=pt-br&hide_border=true&theme=transparent" alt="Estatísticas do GitHub">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=guicardoso0404&layout=compact&locale=pt-br&hide_border=true&theme=transparent" alt="Linguagens mais usadas">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/guicardoso0404/guicardoso0404/main/assets/github-stats-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/guicardoso0404/guicardoso0404/main/assets/github-stats-light.svg">
+  <img src="https://raw.githubusercontent.com/guicardoso0404/guicardoso0404/main/assets/github-stats-light.svg" alt="Estatísticas dinâmicas do GitHub" width="100%">
+</picture>
+
 </div>
 
 ## Contato
