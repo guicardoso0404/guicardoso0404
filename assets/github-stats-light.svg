@@ -1,69 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="420" viewBox="0 0 1000 420">
-  <style>
-    text {font-family:Consolas,'Courier New',monospace;fill:#24292f}
-    .title {font-size:20px;font-weight:700}
-    .label {font-size:13px;fill:#57606a}
-    .number {font-size:27px;font-weight:700;fill:#1a7f37}
-    .muted {font-size:12px;fill:#57606a}
-    .language {font-size:13px;font-weight:700}
-  </style>
-
-  <rect x="1" y="1" width="998" height="418" rx="18"
-        fill="#f6f8fa" stroke="#d0d7de" stroke-width="2"/>
-
-  <text x="28" y="38" class="title">GitHub Stats</text>
-  <text x="972" y="36" text-anchor="end" class="muted">atualizado em 10/07/2026</text>
-  <line x1="28" y1="54" x2="972" y2="54" stroke="#d0d7de"/>
-
-  <g transform="translate(28,78)">
-    <rect width="220" height="82" rx="12" fill="#ffffff" stroke="#d0d7de"/>
-    <text x="18" y="27" class="label">COMMITS · 12 MESES</text>
-    <text x="18" y="62" class="number">0</text>
-  </g>
-  <g transform="translate(266,78)">
-    <rect width="220" height="82" rx="12" fill="#ffffff" stroke="#d0d7de"/>
-    <text x="18" y="27" class="label">CONTRIBUIÇÕES</text>
-    <text x="18" y="62" class="number">0</text>
-  </g>
-  <g transform="translate(504,78)">
-    <rect width="220" height="82" rx="12" fill="#ffffff" stroke="#d0d7de"/>
-    <text x="18" y="27" class="label">REPOSITÓRIOS PÚBLICOS</text>
-    <text x="18" y="62" class="number">25</text>
-  </g>
-  <g transform="translate(742,78)">
-    <rect width="230" height="82" rx="12" fill="#ffffff" stroke="#d0d7de"/>
-    <text x="18" y="27" class="label">SEGUIDORES · ESTRELAS</text>
-    <text x="18" y="62" class="number">0 · 0</text>
-  </g>
-
-  <text x="28" y="205" class="title">Atividade</text>
-  <text x="28" y="238" class="label">Pull requests</text>
-  <text x="235" y="238" class="number" style="font-size:20px">0</text>
-  <text x="28" y="276" class="label">Issues</text>
-  <text x="235" y="276" class="number" style="font-size:20px">0</text>
-  <text x="28" y="314" class="label">Período</text>
-  <text x="235" y="314" class="muted">últimos 365 dias</text>
-
-  <text x="560" y="205" class="title">Linguagens mais usadas</text>
-  <text x="560" y="240" class="language">Java</text>
-<text x="915" y="240" text-anchor="end" class="muted">31.0%</text>
+<style>
+text{font-family:Consolas,'Courier New',monospace;fill:#24292f}
+.title{font-size:20px;font-weight:700}
+.label{font-size:13px;fill:#57606a}
+.number{font-size:27px;font-weight:700;fill:#1a7f37}
+.muted{font-size:12px;fill:#57606a}
+.language{font-size:13px;font-weight:700}
+</style>
+<rect x="1" y="1" width="998" height="418" rx="18" fill="#f6f8fa" stroke="#d0d7de" stroke-width="2"/>
+<text x="28" y="38" class="title">GitHub Stats</text>
+<text x="972" y="36" text-anchor="end" class="muted">atualizado em 10/07/2026</text>
+<line x1="28" y1="54" x2="972" y2="54" stroke="#d0d7de"/>
+<g transform="translate(28,78)"><rect width="220" height="82" rx="12" fill="#ffffff" stroke="#d0d7de"/><text x="18" y="27" class="label">COMMITS · 12 MESES</text><text x="18" y="62" class="number">214</text></g>
+<g transform="translate(266,78)"><rect width="220" height="82" rx="12" fill="#ffffff" stroke="#d0d7de"/><text x="18" y="27" class="label">CONTRIBUIÇÕES</text><text x="18" y="62" class="number">230</text></g>
+<g transform="translate(504,78)"><rect width="220" height="82" rx="12" fill="#ffffff" stroke="#d0d7de"/><text x="18" y="27" class="label">REPOSITÓRIOS PÚBLICOS</text><text x="18" y="62" class="number">24</text></g>
+<g transform="translate(742,78)"><rect width="230" height="82" rx="12" fill="#ffffff" stroke="#d0d7de"/><text x="18" y="27" class="label">SEGUIDORES · ESTRELAS</text><text x="18" y="62" class="number">5 · 0</text></g>
+<text x="28" y="205" class="title">Atividade</text>
+<text x="28" y="238" class="label">Pull requests</text><text x="235" y="238" class="number" style="font-size:20px">1</text>
+<text x="28" y="276" class="label">Issues</text><text x="235" y="276" class="number" style="font-size:20px">0</text>
+<text x="28" y="314" class="label">Período</text><text x="235" y="314" class="muted">últimos 365 dias</text>
+<text x="560" y="205" class="title">Linguagens mais usadas</text>
+<text x="560" y="240" class="language">JavaScript</text>
+<text x="915" y="240" text-anchor="end" class="muted">35.0%</text>
 <rect x="560" y="248" width="320" height="7" rx="3.5" fill="#eaeef2"/>
-<rect x="560" y="248" width="99" height="7" rx="3.5" fill="#b07219"/>
-<text x="560" y="275" class="language">JavaScript</text>
-<text x="915" y="275" text-anchor="end" class="muted">26.0%</text>
+<rect x="560" y="248" width="112" height="7" rx="3.5" fill="#f1e05a"/>
+<text x="560" y="275" class="language">CSS</text>
+<text x="915" y="275" text-anchor="end" class="muted">16.5%</text>
 <rect x="560" y="283" width="320" height="7" rx="3.5" fill="#eaeef2"/>
-<rect x="560" y="283" width="83" height="7" rx="3.5" fill="#f1e05a"/>
-<text x="560" y="310" class="language">HTML</text>
-<text x="915" y="310" text-anchor="end" class="muted">18.0%</text>
+<rect x="560" y="283" width="53" height="7" rx="3.5" fill="#663399"/>
+<text x="560" y="310" class="language">TypeScript</text>
+<text x="915" y="310" text-anchor="end" class="muted">15.9%</text>
 <rect x="560" y="318" width="320" height="7" rx="3.5" fill="#eaeef2"/>
-<rect x="560" y="318" width="58" height="7" rx="3.5" fill="#e34c26"/>
-<text x="560" y="345" class="language">PHP</text>
-<text x="915" y="345" text-anchor="end" class="muted">14.0%</text>
+<rect x="560" y="318" width="51" height="7" rx="3.5" fill="#3178c6"/>
+<text x="560" y="345" class="language">HTML</text>
+<text x="915" y="345" text-anchor="end" class="muted">15.0%</text>
 <rect x="560" y="353" width="320" height="7" rx="3.5" fill="#eaeef2"/>
-<rect x="560" y="353" width="45" height="7" rx="3.5" fill="#4F5D95"/>
-<text x="560" y="380" class="language">CSS</text>
-<text x="915" y="380" text-anchor="end" class="muted">11.0%</text>
+<rect x="560" y="353" width="48" height="7" rx="3.5" fill="#e34c26"/>
+<text x="560" y="380" class="language">PHP</text>
+<text x="915" y="380" text-anchor="end" class="muted">14.8%</text>
 <rect x="560" y="388" width="320" height="7" rx="3.5" fill="#eaeef2"/>
-<rect x="560" y="388" width="35" height="7" rx="3.5" fill="#563d7c"/>
+<rect x="560" y="388" width="47" height="7" rx="3.5" fill="#4F5D95"/>
 </svg>
