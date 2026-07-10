@@ -62,7 +62,7 @@
   </text>
 
   <g transform="translate(455,35)">
-    <text class="title" x="0" y="0">guilherme@cardoso</text>
+    <text class="title" x="0" y="0">Guilherme Cardoso</text>
     <text x="0" y="24" class="muted">────────────────────────────────────────────────────────</text>
 
     <text x="0" y="54"><tspan class="key">Role</tspan><tspan class="muted"> ............ </tspan><tspan class="value">Desenvolvedor Web</tspan></text>
