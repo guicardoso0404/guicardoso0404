@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import datetime as dt
+import hashlib
 import html
 import json
 import os
@@ -12,6 +13,7 @@ import urllib.request
 USERNAME = "guicardoso0404"
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
+README = ROOT / "README.md"
 
 THEMES = {
     "light": {
@@ -28,7 +30,11 @@ THEMES = {
 
 
 def graphql(query: str, variables: dict) -> dict:
-    token = os.environ["GITHUB_TOKEN"]
+    token = os.environ.get("PROFILE_STATS_TOKEN") or os.environ.get("GITHUB_TOKEN")
+    if not token:
+        raise RuntimeError(
+            "Set PROFILE_STATS_TOKEN or GITHUB_TOKEN before generating the stats."
+        )
     request = urllib.request.Request(
         "https://api.github.com/graphql",
         data=json.dumps({"query": query, "variables": variables}).encode(),
@@ -44,6 +50,45 @@ def graphql(query: str, variables: dict) -> dict:
     if payload.get("errors"):
         raise RuntimeError(json.dumps(payload["errors"], ensure_ascii=False))
     return payload["data"]
+
+
+def public_repositories() -> list[dict]:
+    query = """
+    query($login:String!, $cursor:String) {
+      user(login:$login) {
+        repositories(
+          first:100,
+          after:$cursor,
+          ownerAffiliations:[OWNER],
+          privacy:PUBLIC
+        ) {
+          nodes {
+            nameWithOwner
+            isFork
+            stargazerCount
+            languages(first:10, orderBy:{field:SIZE, direction:DESC}) {
+              edges { size node { name color } }
+            }
+          }
+          pageInfo { hasNextPage endCursor }
+        }
+      }
+    }
+    """
+    repositories: list[dict] = []
+    cursor = None
+
+    while True:
+        connection = graphql(query, {"login": USERNAME, "cursor": cursor})["user"][
+            "repositories"
+        ]
+        repositories.extend(connection.get("nodes") or [])
+        page = connection["pageInfo"]
+        if not page["hasNextPage"]:
+            return repositories
+        cursor = page["endCursor"]
+        if not cursor:
+            raise RuntimeError("Repository pagination ended without a cursor.")
 
 
 def repository_line_stats(name_with_owner: str, author_id: str) -> tuple[int, int]:
@@ -109,21 +154,11 @@ def collect() -> dict:
         ) {
           totalCount
         }
-        repositories(first:100, ownerAffiliations:[OWNER], privacy:PUBLIC) {
-          totalCount
-          nodes {
-            nameWithOwner
-            isFork
-            stargazerCount
-            languages(first:10, orderBy:{field:SIZE, direction:DESC}) {
-              edges { size node { name color } }
-            }
-          }
-        }
         contributionsCollection(from:$from, to:$to) {
           totalCommitContributions
           totalPullRequestContributions
           totalIssueContributions
+          restrictedContributionsCount
           contributionCalendar { totalContributions }
         }
       }
@@ -135,8 +170,7 @@ def collect() -> dict:
         "to": end.isoformat(),
     })["user"]
 
-    repos = user["repositories"]
-    owned = [repo for repo in repos["nodes"] if not repo["isFork"]]
+    owned = [repo for repo in public_repositories() if not repo["isFork"]]
     stars = sum(int(repo["stargazerCount"]) for repo in owned)
 
     sizes: dict[str, int] = {}
@@ -173,6 +207,7 @@ def collect() -> dict:
         "contributions": contributions["contributionCalendar"]["totalContributions"],
         "pull_requests": contributions["totalPullRequestContributions"],
         "issues": contributions["totalIssueContributions"],
+        "restricted_contributions": contributions["restrictedContributionsCount"],
         "additions": additions,
         "deletions": deletions,
         "lines": additions - deletions,
@@ -187,6 +222,13 @@ def esc(value: object) -> str:
 
 def fmt(value: int) -> str:
     return f"{int(value):,}"
+
+
+def replace_once(svg: str, pattern: str, replacement: str, label: str) -> str:
+    updated, count = re.subn(pattern, replacement, svg)
+    if count != 1:
+        raise RuntimeError(f"Expected one {label} row, found {count}.")
+    return updated
 
 
 def update_profile(theme: str, stats: dict) -> None:
@@ -220,10 +262,28 @@ def update_profile(theme: str, stats: dict) -> None:
         '<tspan class="muted">)</tspan></text>'
     )
 
-    svg = re.sub(r'<text x="0" y="508">.*?</text>', line_508, svg)
-    svg = re.sub(r'<text x="0" y="533">.*?</text>', line_533, svg)
-    svg = re.sub(r'<text x="0" y="558">.*?</text>', line_558, svg)
+    svg = replace_once(
+        svg, r'<text x="0" y="508">.*?</text>', line_508, "repository stats"
+    )
+    svg = replace_once(
+        svg, r'<text x="0" y="533">.*?</text>', line_533, "commit stats"
+    )
+    svg = replace_once(
+        svg, r'<text x="0" y="558">.*?</text>', line_558, "line stats"
+    )
     path.write_text(svg, encoding="utf-8")
+
+
+def update_readme(version: str) -> None:
+    readme = README.read_text(encoding="utf-8")
+    asset_url = re.compile(
+        rf"(https://raw\.githubusercontent\.com/{USERNAME}/{USERNAME}/main/assets/"
+        r"(?:profile|github-stats)-(?:light|dark)\.svg)(?:\?v=[^\"'\s<>]+)?"
+    )
+    updated, count = asset_url.subn(lambda match: f"{match.group(1)}?v={version}", readme)
+    if count != 6:
+        raise RuntimeError(f"Expected six dynamic asset URLs in README.md, found {count}.")
+    README.write_text(updated, encoding="utf-8")
 
 
 def stats_svg(theme_name: str, stats: dict) -> str:
@@ -281,7 +341,26 @@ def main() -> None:
         (ASSETS / f"github-stats-{theme}.svg").write_text(
             stats_svg(theme, stats), encoding="utf-8"
         )
-    print(json.dumps(stats, ensure_ascii=False, indent=2))
+
+    version = hashlib.sha256(
+        json.dumps(stats, ensure_ascii=False, sort_keys=True).encode("utf-8")
+    ).hexdigest()[:12]
+    update_readme(version)
+
+    if stats["restricted_contributions"] and not os.environ.get(
+        "PROFILE_STATS_TOKEN"
+    ):
+        print(
+            "Warning: some private contribution details are hidden from "
+            "GITHUB_TOKEN. "
+            "Add the PROFILE_STATS_TOKEN repository secret to include activity "
+            "that the token can access."
+        )
+    print(
+        json.dumps(
+            {"cache_version": version, **stats}, ensure_ascii=False, indent=2
+        )
+    )
 
 
 if __name__ == "__main__":
