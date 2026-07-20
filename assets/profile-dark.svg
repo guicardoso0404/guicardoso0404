@@ -85,7 +85,7 @@
 
     <text class="section" x="0" y="482">- GitHub Stats</text>
     <text x="0" y="508"><tspan class="key">Repos</tspan><tspan class="muted"> ......... </tspan><tspan class="value">24</tspan><tspan class="muted"> {Contributed: </tspan><tspan class="value">1</tspan><tspan class="muted">} | Stars .... </tspan><tspan class="value">0</tspan></text>
-    <text x="0" y="533"><tspan class="key">Commits · 12m</tspan><tspan class="muted"> . </tspan><tspan class="value">223</tspan><tspan class="muted"> | Followers .... </tspan><tspan class="value">5</tspan></text>
+    <text x="0" y="533"><tspan class="key">Commits · 12m</tspan><tspan class="muted"> . </tspan><tspan class="value">223</tspan><tspan class="muted"> | Followers .... </tspan><tspan class="value">6</tspan></text>
     <text x="0" y="558"><tspan class="key">Lines of Code on GitHub</tspan><tspan class="muted"> . </tspan><tspan class="value">502,626</tspan><tspan class="muted"> (</tspan><tspan class="add">514,079++</tspan><tspan class="muted">, </tspan><tspan class="del">11,453--</tspan><tspan class="muted">)</tspan></text>
 
     <text class="section" x="0" y="600">- Contact</text>

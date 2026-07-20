@@ -18,7 +18,7 @@ text{font-family:Consolas,'Courier New',monospace;fill:#e6edf3;font-size:15px}
 <line x1="28" y1="54" x2="972" y2="54" stroke="#30363d"/>
 
 <text x="28" y="91"><tspan class="key">Repos</tspan><tspan class="muted"> ........ </tspan><tspan class="value">24</tspan><tspan class="muted"> {Contributed: </tspan><tspan class="value">1</tspan><tspan class="muted">} | Stars ........ </tspan><tspan class="value">0</tspan></text>
-<text x="28" y="123"><tspan class="key">Commits · 12 meses</tspan><tspan class="muted"> ........ </tspan><tspan class="value">223</tspan><tspan class="muted"> | Followers .... </tspan><tspan class="value">5</tspan></text>
+<text x="28" y="123"><tspan class="key">Commits · 12 meses</tspan><tspan class="muted"> ........ </tspan><tspan class="value">223</tspan><tspan class="muted"> | Followers .... </tspan><tspan class="value">6</tspan></text>
 <text x="28" y="155"><tspan class="key">Lines of Code on GitHub</tspan><tspan class="muted"> ... </tspan><tspan class="value">502,626</tspan><tspan class="muted"> (</tspan><tspan class="add">514,079++</tspan><tspan class="muted">, </tspan><tspan class="del">11,453--</tspan><tspan class="muted">)</tspan></text>
 
 <line x1="28" y1="181" x2="972" y2="181" stroke="#30363d"/>
