@@ -1,9 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/guicardoso0404/guicardoso0404/main/assets/profile-dark.svg?v=150dbc01975a">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/guicardoso0404/guicardoso0404/main/assets/profile-light.svg?v=150dbc01975a">
-  <img src="https://raw.githubusercontent.com/guicardoso0404/guicardoso0404/main/assets/profile-light.svg?v=150dbc01975a" alt="Perfil de Guilherme Cardoso em estilo terminal" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/guicardoso0404/guicardoso0404/main/assets/profile-dark.svg?v=c2af16e90a1d">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/guicardoso0404/guicardoso0404/main/assets/profile-light.svg?v=c2af16e90a1d">
+  <img src="https://raw.githubusercontent.com/guicardoso0404/guicardoso0404/main/assets/profile-light.svg?v=c2af16e90a1d" alt="Perfil de Guilherme Cardoso em estilo terminal" width="100%">
 </picture>
 
 <br>
@@ -38,9 +38,9 @@ Atuo no desenvolvimento de soluções web, com foco crescente em **backend com J
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/guicardoso0404/guicardoso0404/main/assets/github-stats-dark.svg?v=150dbc01975a">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/guicardoso0404/guicardoso0404/main/assets/github-stats-light.svg?v=150dbc01975a">
-  <img src="https://raw.githubusercontent.com/guicardoso0404/guicardoso0404/main/assets/github-stats-light.svg?v=150dbc01975a" alt="Estatísticas dinâmicas do GitHub" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/guicardoso0404/guicardoso0404/main/assets/github-stats-dark.svg?v=c2af16e90a1d">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/guicardoso0404/guicardoso0404/main/assets/github-stats-light.svg?v=c2af16e90a1d">
+  <img src="https://raw.githubusercontent.com/guicardoso0404/guicardoso0404/main/assets/github-stats-light.svg?v=c2af16e90a1d" alt="Estatísticas dinâmicas do GitHub" width="100%">
 </picture>
 
 </div>
